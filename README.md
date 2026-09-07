@@ -15,14 +15,14 @@ python3 "$HOME/.config/omarchy/themes/silo/companion/launch.py"
 
 ## Play
 
-Press **Super + Alt + Space**, search **Silo: The Cleaning**, and press **Enter**.
+The shortcut is added automatically. To play later, open the app launcher with **Super + Alt + Space**, search **Silo: The Cleaning**, and press **Enter**.
 
 - Select **Begin cleaning**, then hold and drag to wipe the lens.
 - Clear the view before your 30 seconds of air run out.
 - Select **Pause** to pause, **Again** to replay, or **Exit** to quit.
 - Keyboard: focus the lens, hold **Space**, and use the **arrow keys** to wipe. Press **P** to pause.
 
-![The Cleaning landscape — AI-generated artwork](companion/outside.jpg)
+![The Cleaning game in progress](preview/cleaning-game.png)
 
 ## Change wallpaper
 
