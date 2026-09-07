@@ -24,20 +24,6 @@ Open the app launcher with **Super + Alt + Space**, search **Silo: The Cleaning*
 
 ![The Cleaning game in progress](preview/cleaning-game.png)
 
-## Change wallpaper
-
-```bash
-omarchy theme bg next
-```
-
 ![Wallpaper collection](preview/collection.jpg)
-
-## Update
-
-```bash
-omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
-```
-
-Reopen **Silo: The Cleaning** to play the updated game.
 
 [Wallpaper credits](WALLPAPERS.md) · Unofficial fan theme. The Cleaning landscape is AI-generated artwork.
