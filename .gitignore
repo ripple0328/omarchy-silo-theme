@@ -5,5 +5,3 @@ preview/*
 tests/results/
 __pycache__/
 *.pyc
-!preview/mechanical.jpg
-!preview/handover.jpg

@@ -19,75 +19,54 @@ omarchy theme bg next
 
 Twenty-three wallpapers, including **ten new production images**: five concept paintings at 6000–7680 pixels wide and five empty-set photographs around 4K. Abandoned Shaft is the default. Original character photography reaches **8002×5337**. The older 1080p set-tour frames remain available for variety.
 
-## Mechanical companion
+## The Cleaning
 
-A local Silo-inspired app with a three-stage generator-balancing puzzle, a focus timer, a handover notebook, and optional machinery ambience (off by default).
+One cloth, thirty seconds of air. Hold and drag to wipe the camera lens so the people inside can see the world outside.
 
-### Screenshots
+The outside view revealed beneath the dust — original AI-generated environment artwork, not a still from the show:
 
-**Generator console and shift timer** — match each load order, hold the safe bands for eight seconds, and work a 15/25/45/60-minute shift.
+![The landscape revealed by cleaning](companion/outside.jpg)
 
-![Generator console and focus shift timer](preview/mechanical.jpg)
+### Launch and play
 
-**Handover book** — save notes for your next shift and export a JSON backup. This screenshot uses example notes.
-
-![Handover notebook with an example entry and export control](preview/handover.jpg)
-
-### Install
-
-Requires Omarchy, Python 3, a systemd user session, and an Omarchy-supported web-app browser. No additional Python or JavaScript packages are needed.
-
-1. Install the theme from GitHub (skip this if already installed):
-
-   ```bash
-   omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
-   ```
-
-2. Install the optional companion and application launcher:
-
-   ```bash
-   python3 ~/.config/omarchy/themes/silo/companion/install.py
-   ```
-
-The companion installs separately from the theme. Installing a theme alone does not run the companion installer.
-
-### Launch
-
-Open your application launcher, search for **Silo Mechanical**, and select it. Or launch from a terminal:
+After installing the theme, run:
 
 ```bash
-python3 ~/.local/share/silo-mechanical/launch.py
+python3 ~/.config/omarchy/themes/silo/companion/launch.py
 ```
 
-Both methods start the local service and open the console in an app window. Once running, you can also visit [the local console](http://127.0.0.1:48118/) in a browser. Use the same browser profile to keep your timer and notes together.
+Or run `python3 companion/launch.py` from a clone of this repository. Requires Python 3 and a Chromium-based browser; on Omarchy it uses the normal web-app launcher. No extra packages, server, service, or system configuration are needed.
 
-### Use
+The launcher builds one self-contained HTML file and opens it in an app window. It makes no network connections.
 
-- **Generator:** adjust steam and cooling to match demand within ±5%, keeping pressure and temperature in their safe bands. Hold steady for eight seconds, then select **Next load order**. Complete all three orders to certify the inspection.
-- **Shift:** choose a duration and select **Begin shift**. Pause, resume, or reset whenever needed. The timer catches up after closing the window or suspending the computer; it does not send background notifications.
-- **Handover:** write a note and select **Record handover**. Use **Export notes** to save a backup. Notes, drafts, and timer state stay in this browser’s local storage; clearing browser data removes them.
-- **Ambience:** turn the optional machinery hum on or off with the top-right button.
+- Select **Begin cleaning**, then hold and drag across the lens. Air starts with the first wipe.
+- Clear the lens before thirty seconds run out. Select **Again** to replay.
+- **Pause** or **P** pauses the round; switching away also pauses it.
+- Keyboard: focus the lens, hold **Space**, and move the cloth with the **arrow keys**.
+- Sound is optional and off by default.
+- Select **Exit**, or close the window. No game server or service remains running.
 
-All instruments are fictional. The puzzle restarts on reload. The app works offline and listens only on `127.0.0.1:48118`; the service starts on demand, without login autostart.
+Some ordinary browser tabs prevent pages from closing themselves. In that case Exit stops the game and shows a signed-off screen; close that tab normally.
 
-### Update or stop
+### Optional application shortcut
 
-To update both the theme and companion:
+To add **Silo: The Cleaning** to your application launcher:
 
 ```bash
-omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
 python3 ~/.config/omarchy/themes/silo/companion/install.py
 ```
 
-Reopen or reload the app after updating. Updates preserve browser-stored notes and timer state.
+This copies the game into your local application directory and adds a desktop shortcut. It does not create services or change system configuration. The direct launch command above requires no installation.
 
-Closing the window leaves the lightweight local service running. To stop it:
+### Update
 
 ```bash
-systemctl --user stop silo-mechanical.service
+omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
 ```
 
-Launching **Silo Mechanical** starts it again.
+Launch again to play the updated game. If you added the optional shortcut, rerun its installer after updating the theme.
+
+This replaces the former Mechanical dashboard. It does not read or delete that dashboard’s browser-stored notes.
 
 ## Wallpaper previews
 

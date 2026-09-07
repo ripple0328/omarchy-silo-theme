@@ -1,19 +1,25 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {newShift,start,pause,tick,restoreShift,plant,stable} from '../companion/core.mjs';
-test('shift uses deadline across suspended tabs and reload, not interval count',()=>{
- const s=start(newShift(25),1000);assert.equal(restoreShift(JSON.parse(JSON.stringify(s)),61000).remaining,1440000);
- assert.equal(tick(s,2000000).phase,'complete');assert.equal(tick(s,2000000).remaining,0);
+import {Coverage,strokePoints,advanceRound} from '../companion/core.mjs';
+test('overlapping wipes never double-count coverage',()=>{
+ const mask=new Coverage(100,60);mask.wipe(40,30,15);const first=mask.fraction;
+ mask.wipe(40,30,15);assert.equal(mask.fraction,first);
+ mask.wipe(60,30,15);assert.ok(mask.fraction>first);assert.ok(mask.fraction<first*2);
 });
-test('pause freezes remaining time and resume establishes a new deadline',()=>{
- const s=pause(start(newShift(15),1000),61000);assert.equal(s.remaining,840000);assert.equal(tick(s,9999999).remaining,840000);
- assert.equal(start(s,2000000).endsAt,2840000);
+test('edge wipes stay bounded and sweeping can clear the whole lens',()=>{
+ const mask=new Coverage(100,60);mask.wipe(-20,-20,5);assert.equal(mask.fraction,0);
+ for(let y=0;y<=60;y+=10)for(let x=0;x<=100;x+=10)mask.wipe(x,y,10);
+ assert.equal(mask.fraction,1);
 });
-test('pausing after deadline completes instead of resurrecting the timer',()=>{assert.equal(pause(start(newShift(1),0),60001).phase,'complete');});
-test('corrupt persisted timer recovers safely',()=>{
- for(const bad of [null,{}, {phase:'running',duration:60000,remaining:60000,endsAt:'bad'},{phase:'paused',duration:-1,remaining:3}]) assert.equal(restoreShift(bad,0).phase,'idle');
+test('fast pointer strokes interpolate without gaps',()=>{
+ const points=strokePoints({x:0,y:0},{x:100,y:0},10);
+ assert.equal(points[0].x,0);assert.equal(points.at(-1).x,100);
+ for(let i=1;i<points.length;i++)assert.ok(Math.hypot(points[i].x-points[i-1].x,points[i].y-points[i-1].y)<=10.001);
 });
-test('all load orders have feasible settings; unsafe controls fail',()=>{
- for(const [demand,steam,cooling] of [[64,60,50],[48,49,40],[78,70,55]])assert.ok(stable(plant(steam,cooling),demand));
- assert.equal(stable(plant(0,100),64),false);assert.equal(stable(plant(100,0),64),false);
+test('air does not drain before first wipe or during pause',()=>{
+ for(const phase of ['intro','ready','paused','won','lost'])assert.equal(advanceRound({phase,remaining:30},20,0).remaining,30);
+});
+test('clearing 85 percent wins; elapsed air loses and clamps at zero',()=>{
+ assert.equal(advanceRound({phase:'playing',remaining:2},1,.85).phase,'won');
+ assert.deepEqual(advanceRound({phase:'playing',remaining:2},5,.6),{phase:'lost',remaining:0});
 });
