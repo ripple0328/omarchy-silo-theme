@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Cafeteria",
+    "file": "06-cafeteria.png",
+    "caption": "Upper levels \u00b7 Empty set"
+  },
+  {
+    "name": "Residential",
+    "file": "02-residential-level.png",
+    "caption": "Living quarters \u00b7 Empty set"
+  },
+  {
+    "name": "Gardens",
+    "file": "31-intro-gardens.jpg",
+    "caption": "Opening titles \u00b7 A stylized glimpse of the ecosystem"
+  },
+  {
+    "name": "Central shaft",
+    "file": "30-intro-shaft.jpg",
+    "caption": "Opening titles \u00b7 The spine of the silo"
+  },
+  {
+    "name": "Mechanical",
+    "file": "12-mechanical.jpg",
+    "caption": "Down deep \u00b7 Production still"
+  },
+  {
+    "name": "Machinery",
+    "file": "32-intro-machinery.jpg",
+    "caption": "Opening titles \u00b7 Industrial detail"
+  },
+  {
+    "name": "Spiral",
+    "file": "33-intro-spiral.jpg",
+    "caption": "Opening titles \u00b7 Light and structure"
+  },
+  {
+    "name": "The core",
+    "file": "34-intro-core.jpg",
+    "caption": "Opening titles \u00b7 Beneath it all"
+  },
+  {
+    "name": "Outside",
+    "file": "15-outside.jpg",
+    "caption": "Beyond the silo \u00b7 Production still"
+  }
+]

@@ -1,17 +1,24 @@
 # Silo for Omarchy
 
-A theme inspired by **Silo**, with 23 wallpapers and **The Cleaning** minigame.
+A theme inspired by **Silo**, with 28 wallpapers and **The Cleaning** minigame.
 
 ![Silo theme](preview/desktop-review.jpg)
 
 ## Install
 
-Paste into a terminal to install the theme and game shortcut:
+Paste into a terminal to install the theme and app shortcuts:
 
 ```bash
 omarchy theme install https://github.com/ripple0328/omarchy-silo-theme &&
 python3 "$HOME/.config/omarchy/themes/silo/companion/install.py"
 ```
+
+## Explore the levels
+
+Open the app launcher with **Super + Alt + Space** and choose **Silo: Levels**.
+Use **Previous level** / **Next level**, or pick a stop to change your wallpaper with a transition. Close the app to keep your chosen wallpaper.
+
+![Silo Levels](preview/levels.png)
 
 ## Play
 

@@ -5,3 +5,4 @@ preview/*
 tests/results/
 __pycache__/
 *.pyc
+!preview/levels.png

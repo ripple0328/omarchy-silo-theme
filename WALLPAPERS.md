@@ -1,6 +1,6 @@
 # Silo wallpapers
 
-Twenty-three wallpapers combine production artwork, empty sets, architecture, and character scenes. Abandoned Shaft is the default.
+Twenty-eight wallpapers combine production artwork, empty sets, architecture, and character scenes. Abandoned Shaft is the default.
 
 | Wallpaper | Pixels | Source |
 |---|---|---|
@@ -59,3 +59,13 @@ Ten additional images extracted directly from the embedded JPEG assets in [Nicol
 | Algorithm Chamber | 6000×2513 | concept art | 43 |
 
 No added upscaling, sharpening, AI generation, or JPEG recompression. Embedded artist marks are retained. Source processing before PDF publication is unknown. The 7680-pixel images are painted concepts, not 8K camera photographs. The 4K set photos contain natural grain and varying focus. On a 6144×3456 display, even a 7680×3214 ultrawide image requires a small enlargement when filling the screen; 4K photography requires more. The older 1080p frames remain optional for variety and are not recommended for sharpness on 6K displays.
+
+## Opening titles
+
+Five original 1920×960 JPEG stills from [Antibody’s Silo title sequence](https://antibody.tv/works/silo/). They are included unchanged, with credits retained where present. These are optional atmospheric backgrounds, not 4K images; no upscaling is applied. “Gardens” describes the stylized title artwork, not a confirmed filming location or numbered level. The level browser is a curated journey, not a canonical floor map.
+
+- `30-intro-shaft.jpg` — [Antibody SiloMT04](https://antibody.tv/wp-content/uploads/2023/05/SiloMT04.jpg)
+- `31-intro-gardens.jpg` — [Antibody SiloMT14](https://antibody.tv/wp-content/uploads/2023/05/SiloMT14.jpg)
+- `32-intro-machinery.jpg` — [Antibody SiloMT12](https://antibody.tv/wp-content/uploads/2023/05/SiloMT12.jpg)
+- `33-intro-spiral.jpg` — [Antibody SiloMT29](https://antibody.tv/wp-content/uploads/2023/05/SiloMT29.jpg)
+- `34-intro-core.jpg` — [Antibody SiloMT33](https://antibody.tv/wp-content/uploads/2023/05/SiloMT33.jpg)

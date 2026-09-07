@@ -219,5 +219,40 @@
     "dimensions": "6000x2513",
     "sha256": "5331fa75ea2ea26193fb913095d7e8b421e11558fa3d492e9d6b02cd708fd778",
     "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/30-intro-shaft.jpg",
+    "source": "https://antibody.tv/wp-content/uploads/2023/05/SiloMT04.jpg",
+    "credit": "Antibody / Apple TV; original main-title still",
+    "dimensions": "1920x960",
+    "sha256": "3d18635de3ea174bb57f4791b706e928ee41326f4e7da442c2c03ed025720321"
+  },
+  {
+    "file": "backgrounds/31-intro-gardens.jpg",
+    "source": "https://antibody.tv/wp-content/uploads/2023/05/SiloMT14.jpg",
+    "credit": "Antibody / Apple TV; original main-title still",
+    "dimensions": "1920x960",
+    "sha256": "925db81ca430112a44484ac8c93d73845c8e26994397d7a1f9c92da760603e08"
+  },
+  {
+    "file": "backgrounds/32-intro-machinery.jpg",
+    "source": "https://antibody.tv/wp-content/uploads/2023/05/SiloMT12.jpg",
+    "credit": "Antibody / Apple TV; original main-title still",
+    "dimensions": "1920x960",
+    "sha256": "578234c34e743afa28841098ff8b48adff9f09a17db27c9b5a1e66284ce09108"
+  },
+  {
+    "file": "backgrounds/33-intro-spiral.jpg",
+    "source": "https://antibody.tv/wp-content/uploads/2023/05/SiloMT29.jpg",
+    "credit": "Antibody / Apple TV; original main-title still",
+    "dimensions": "1920x960",
+    "sha256": "00603622fba719c51a8f0de504bc3e21628ad0470ff0fae192c53d8d21812778"
+  },
+  {
+    "file": "backgrounds/34-intro-core.jpg",
+    "source": "https://antibody.tv/wp-content/uploads/2023/05/SiloMT33.jpg",
+    "credit": "Antibody / Apple TV; original main-title still",
+    "dimensions": "1920x960",
+    "sha256": "6d25d39666eb0e45bc0130faf871828111b329f1c73e067567a4aab81e8b016c"
   }
 ]

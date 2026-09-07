@@ -44,4 +44,8 @@ def install(source=ROOT):
 
 if __name__ == '__main__':
     install()
-    print('Ready. Open the Apps menu and choose “Silo: The Cleaning”.')
+    level_installer = ROOT.parent / 'levels/launch.py'
+    if level_installer.is_file():
+        import runpy
+        runpy.run_path(str(level_installer))['install'](ROOT.parent)
+    print('Ready. Open the Apps menu and search for Silo.')
