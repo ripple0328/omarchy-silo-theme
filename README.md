@@ -6,16 +6,16 @@ A theme inspired by **Silo**, with 23 wallpapers and **The Cleaning** minigame.
 
 ## Install
 
-Paste into a terminal to install the theme, add the game shortcut, and start playing:
+Paste into a terminal to install the theme and game shortcut:
 
 ```bash
 omarchy theme install https://github.com/ripple0328/omarchy-silo-theme &&
-python3 "$HOME/.config/omarchy/themes/silo/companion/launch.py"
+python3 "$HOME/.config/omarchy/themes/silo/companion/install.py"
 ```
 
 ## Play
 
-The shortcut is added automatically. To play later, open the app launcher with **Super + Alt + Space**, search **Silo: The Cleaning**, and press **Enter**.
+Open the app launcher with **Super + Alt + Space**, search **Silo: The Cleaning**, and press **Enter**.
 
 - Select **Begin cleaning**, then hold and drag to wipe the lens.
 - Clear the view before your 30 seconds of air run out.
