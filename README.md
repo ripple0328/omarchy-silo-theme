@@ -19,4 +19,8 @@ omarchy theme bg next
 
 Seven wallpapers: a **5600×2800** central-shaft view and six **1920×1080** empty-set captures from Apple's official tour. No actor portraits. The shaft has tiny distant figures; the remaining scenes are empty.
 
+## Wallpaper previews
+
+![Central shaft and six empty Silo sets](preview/collection.jpg)
+
 See [wallpaper credits](WALLPAPERS.md) for sources and resolution details. This unofficial fan theme grants no rights to the show's imagery.
