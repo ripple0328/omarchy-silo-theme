@@ -35,7 +35,7 @@ After installing the theme, run:
 python3 ~/.config/omarchy/themes/silo/companion/launch.py
 ```
 
-Or run `python3 companion/launch.py` from a clone of this repository. Requires Python 3 and a Chromium-based browser; on Omarchy it uses the normal web-app launcher. No extra packages, server, service, or system configuration are needed.
+Or run `python3 companion/launch.py` from a clone of this repository. Omarchy already includes Python 3 through its `uwsm` dependency and provides the web-app browser launcher. On Omarchy, no extra packages, server, service, or system configuration are needed. Other Linux distributions need Python 3 and a Chromium-based browser.
 
 The launcher builds one self-contained HTML file and opens it in an app window. It makes no network connections.
 
@@ -56,7 +56,9 @@ To add **Silo: The Cleaning** to your application launcher:
 python3 ~/.config/omarchy/themes/silo/companion/install.py
 ```
 
-This copies the game into your local application directory and adds a desktop shortcut. It does not create services or change system configuration. The direct launch command above requires no installation.
+This is how the **Silo: The Cleaning** entry appears in the application menu: the installer copies the game to `~/.local/share/silo-cleaning/` and writes `~/.local/share/applications/silo-cleaning.desktop`. Selecting that entry runs the local launcher and opens a browser app window. It is a shortcut, not a separate native application.
+
+It does not create services or change system configuration. The direct launch command above requires no installation.
 
 ### Update
 
