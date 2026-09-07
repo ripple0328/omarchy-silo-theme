@@ -25,22 +25,29 @@ def bundle(source=ROOT):
     html = html.replace('<meta charset="utf-8">', '<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="' + policy + '">')
     return html.replace('</body>', '<script>\n' + core + '\n' + app + '\n</script></body>')
 
-def build():
+def build(source=ROOT):
     # A stable file URL keeps browser storage consistent across repo updates.
     output = Path.home() / '.local/share/silo-cleaning/game.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_suffix('.tmp')
-    temporary.write_text(bundle())
+    temporary.write_text(bundle(source))
     temporary.replace(output)
     return output
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build-only', action='store_true', help='Write the standalone HTML without opening it')
+    parser.add_argument('--install-only', action='store_true', help='Install the shortcut and prepare the game without opening it')
     args = parser.parse_args()
-    page = build()
+    if args.build_only:
+        page = build()
+    else:
+        from install import install
+        page = build(install(ROOT))
     if args.build_only:
         print(page)
+    elif args.install_only:
+        print('Ready. Open the Apps menu and choose “Silo: The Cleaning”.')
     elif shutil.which('omarchy'):
         subprocess.run(['omarchy', 'launch', 'webapp', page.as_uri()], check=True)
     else:

@@ -4,11 +4,20 @@ Charcoal concrete, aged brass, faded olive, and industrial teal — with archite
 
 ![Silo theme](preview/desktop-review.jpg)
 
-## Install
+## Install and play
+
+Paste this into a terminal:
 
 ```bash
-omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
+omarchy theme install https://github.com/ripple0328/omarchy-silo-theme &&
+python3 "$HOME/.config/omarchy/themes/silo/companion/launch.py"
 ```
+
+This applies the theme, adds **Silo: The Cleaning** to your Apps menu, and opens the game. Omarchy already includes Python, so no extra packages are needed. Select **Begin cleaning** to play.
+
+**Next time:** press **Super + Alt + Space**, search **Silo: The Cleaning**, and press **Enter**.
+
+For the theme alone, run just the first command without the trailing `&&`.
 
 ## Use
 
@@ -27,17 +36,9 @@ The outside view revealed beneath the dust — original AI-generated environment
 
 ![The landscape revealed by cleaning](companion/outside.jpg)
 
-### Launch and play
+### Play
 
-After installing the theme, run:
-
-```bash
-python3 ~/.config/omarchy/themes/silo/companion/launch.py
-```
-
-Or run `python3 companion/launch.py` from a clone of this repository. Omarchy already includes Python 3 through its `uwsm` dependency and provides the web-app browser launcher. On Omarchy, no extra packages, server, service, or system configuration are needed. Other Linux distributions need Python 3 and a Chromium-based browser.
-
-The launcher builds one self-contained HTML file and opens it in an app window. It makes no network connections.
+Hold and drag across the dusty lens to reveal the landscape. The game runs offline in its own browser app window.
 
 - Select **Begin cleaning**, then hold and drag across the lens. Air starts with the first wipe.
 - Clear the lens before thirty seconds run out. Select **Again** to replay.
@@ -48,25 +49,13 @@ The launcher builds one self-contained HTML file and opens it in an app window. 
 
 Some ordinary browser tabs prevent pages from closing themselves. In that case Exit stops the game and shows a signed-off screen; close that tab normally.
 
-### Optional application shortcut
-
-To add **Silo: The Cleaning** to your application launcher:
-
-```bash
-python3 ~/.config/omarchy/themes/silo/companion/install.py
-```
-
-This is how the **Silo: The Cleaning** entry appears in the application menu: the installer copies the game to `~/.local/share/silo-cleaning/` and writes `~/.local/share/applications/silo-cleaning.desktop`. Selecting that entry runs the local launcher and opens a browser app window. It is a shortcut, not a separate native application.
-
-It does not create services or change system configuration. The direct launch command above requires no installation.
-
 ### Update
 
 ```bash
 omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
 ```
 
-Launch again to play the updated game. If you added the optional shortcut, rerun its installer after updating the theme.
+Open **Silo: The Cleaning** from the Apps menu again. It picks up the updated game automatically.
 
 This replaces the former Mechanical dashboard. It does not read or delete that dashboard’s browser-stored notes.
 
