@@ -5,7 +5,7 @@
     "caption": "Avi Nash in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-09/photo-020909/Silo_Photo_020909.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-09/photo-020909/Silo_Photo_020909.zip",
-    "file": "theme/backgrounds/02-deep-silo.jpg",
+    "file": "backgrounds/02-deep-silo.jpg",
     "sha256": "3dabd3815c8477b3c8aa01cb969dc09f2b313806ee83eb107ba008e79fc54ca6",
     "dimensions": "3840x1606"
   },
@@ -15,7 +15,7 @@
     "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-01/photo-020101/Silo_Photo_020101.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-01/photo-020101/Silo_Photo_020101.zip",
-    "file": "theme/backgrounds/01-concrete-and-ochre.jpg",
+    "file": "backgrounds/01-concrete-and-ochre.jpg",
     "sha256": "01c5855f11880c4020ad14936c98622b28fd8933b5373661ea7a5ae0e316b543",
     "dimensions": "6072x4050"
   },
@@ -25,7 +25,7 @@
     "caption": "Matt Gomez Hidaka in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-03/photo-010311/Silo_Photo_010311.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-03/photo-010311/Silo_Photo_010311.zip",
-    "file": "theme/backgrounds/03-mechanical.jpg",
+    "file": "backgrounds/03-mechanical.jpg",
     "sha256": "5c72de125fb3bfb653793b72c0c20709f0554b88432e8e3e395ea106c38c92cb",
     "dimensions": "3840x1918"
   },
@@ -35,7 +35,7 @@
     "caption": "Harriet Walter in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010404/Silo_Photo_010404.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010404/Silo_Photo_010404.zip",
-    "file": "theme/backgrounds/04-workshop.jpg",
+    "file": "backgrounds/04-workshop.jpg",
     "sha256": "b02e651247da4fc466982b1364e8db679c15a0758e6d4039bc6bef3cd3e5f7d5",
     "dimensions": "8002x5337"
   },
@@ -45,7 +45,7 @@
     "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010408/Silo_Photo_010408.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010408/Silo_Photo_010408.zip",
-    "file": "theme/backgrounds/05-the-cafeteria.jpg",
+    "file": "backgrounds/05-the-cafeteria.jpg",
     "sha256": "a9bcb9d9b368c00f508bade1a1a9cd9e4f34f0599302871313a85d166600fc0b",
     "dimensions": "3840x1918"
   },
@@ -55,7 +55,7 @@
     "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/first-look/photo-0201/Silo_Photo_0201.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/first-look/photo-0201/Silo_Photo_0201.zip",
-    "file": "theme/backgrounds/06-outside.jpg",
+    "file": "backgrounds/06-outside.jpg",
     "sha256": "dd638e5dd6dec19e7b3cf314f00b3db94941c2d745df69b8bd4bac083e60a163",
     "dimensions": "3840x1604"
   }

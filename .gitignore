@@ -2,6 +2,5 @@ research/
 preview/*
 !preview/desktop-review.jpg
 tests/results/
-theme/backgrounds/*.jpg
 __pycache__/
 *.pyc

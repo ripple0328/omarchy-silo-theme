@@ -2,7 +2,7 @@
 """Validate palette readability, source images, and installed Omarchy templates."""
 import hashlib, json, os, pathlib, subprocess, tempfile, tomllib
 root = pathlib.Path(__file__).resolve().parents[1]
-c = tomllib.loads((root / 'theme/colors.toml').read_text())
+c = tomllib.loads((root / 'colors.toml').read_text())
 def luminance(h):
     channels = [int(h[i:i+2], 16) / 255 for i in (1, 3, 5)]
     linear = [v / 12.92 if v <= .04045 else ((v + .055) / 1.055) ** 2.4 for v in channels]
@@ -22,7 +22,7 @@ for source in json.loads((root / 'sources.json').read_text()):
 with tempfile.TemporaryDirectory(prefix='silo-validation-') as tmp:
     stage = pathlib.Path(tmp) / '.local/state/omarchy/current/next-theme'
     stage.mkdir(parents=True)
-    (stage / 'colors.toml').write_text((root / 'theme/colors.toml').read_text())
+    (stage / 'colors.toml').write_text((root / 'colors.toml').read_text())
     subprocess.run(['omarchy-theme-set-templates'], env=dict(os.environ, HOME=tmp), check=True)
     outputs = list(stage.iterdir())
     for f in outputs:
