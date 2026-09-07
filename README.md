@@ -1,6 +1,6 @@
 # Silo for Omarchy
 
-Charcoal concrete, aged brass, faded olive, and industrial teal — with wallpapers focused on the architecture and empty sets of **Silo**.
+Charcoal concrete, aged brass, faded olive, and industrial teal — with architecture, empty sets, and character scenes from **Silo**.
 
 ![Silo theme](preview/desktop-review.jpg)
 
@@ -17,10 +17,10 @@ omarchy theme set silo
 omarchy theme bg next
 ```
 
-Seven wallpapers: a **5600×2800** central-shaft view and six **1920×1080** empty-set captures from Apple's official tour. No actor portraits. The shaft has tiny distant figures; the remaining scenes are empty.
+Thirteen wallpapers: the central shaft, six empty sets, and six restored character scenes. The central-shaft view remains the default. Original photo resolutions reach **8002×5337**.
 
 ## Wallpaper previews
 
-![Central shaft and six empty Silo sets](preview/collection.jpg)
+![All thirteen Silo wallpapers](preview/collection.jpg)
 
 See [wallpaper credits](WALLPAPERS.md) for sources and resolution details. This unofficial fan theme grants no rights to the show's imagery.
