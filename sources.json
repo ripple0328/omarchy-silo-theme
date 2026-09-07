@@ -63,7 +63,7 @@
   {
     "season": "Season 2",
     "episode": "The Safeguard",
-    "caption": "Avi Nash in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Avi Nash in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-09/photo-020909/Silo_Photo_020909.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-09/photo-020909/Silo_Photo_020909.zip",
     "file": "backgrounds/11-deep-silo.jpg",
@@ -73,7 +73,7 @@
   {
     "season": "Season 2",
     "episode": "The Engineer",
-    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-01/photo-020101/Silo_Photo_020101.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/episode-01/photo-020101/Silo_Photo_020101.zip",
     "file": "backgrounds/10-concrete-and-ochre.jpg",
@@ -83,7 +83,7 @@
   {
     "season": "Season 1",
     "episode": "Machines",
-    "caption": "Matt Gomez Hidaka in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Matt Gomez Hidaka in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-03/photo-010311/Silo_Photo_010311.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-03/photo-010311/Silo_Photo_010311.zip",
     "file": "backgrounds/12-mechanical.jpg",
@@ -93,7 +93,7 @@
   {
     "season": "Season 1",
     "episode": "Truth",
-    "caption": "Harriet Walter in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Harriet Walter in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010404/Silo_Photo_010404.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010404/Silo_Photo_010404.zip",
     "file": "backgrounds/13-workshop.jpg",
@@ -103,7 +103,7 @@
   {
     "season": "Season 1",
     "episode": "Truth",
-    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010408/Silo_Photo_010408.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-01/unit-photos/episode-04/photo-010408/Silo_Photo_010408.zip",
     "file": "backgrounds/14-the-cafeteria.jpg",
@@ -113,11 +113,111 @@
   {
     "season": "Season 2",
     "episode": "First Look Images",
-    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple\u00a0TV.",
+    "caption": "Rebecca Ferguson in \"Silo,\" now streaming on Apple TV.",
     "url": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/first-look/photo-0201/Silo_Photo_0201.jpg",
     "download": "https://www.apple.com/tv-pr/shows-and-films/s/silo/images/season-02/unit-photos/first-look/photo-0201/Silo_Photo_0201.zip",
     "file": "backgrounds/15-outside.jpg",
     "sha256": "dd638e5dd6dec19e7b3cf314f00b3db94941c2d745df69b8bd4bac083e60a163",
     "dimensions": "3840x1604"
+  },
+  {
+    "file": "backgrounds/00-abandoned-shaft.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 2,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "concept art",
+    "dimensions": "7680x3214",
+    "sha256": "9b75cbc9247afaea753240c0faaa323c086bd7f28ff3ab2628a6fa7ba59d959d",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/20-shaft-overlook.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 3,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "concept art",
+    "dimensions": "7680x3214",
+    "sha256": "c6b55689b586badede5374f7e974d74349939986d135757fd3956052ba72ef2f",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/21-it-bridge.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 4,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "concept art",
+    "dimensions": "7680x3214",
+    "sha256": "ae5b92aedde3e68f3c251d84588100fae5804427b9c8c2292fc2a70a9a1baf27",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/22-classroom-desks.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 16,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "set photograph",
+    "dimensions": "4032x2268",
+    "sha256": "24ecc91ed46b0145adadee5588ecf1262fe1d47f71a7b15dfb6b8e356d86186d",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/23-classroom-wide.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 16,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "set photograph",
+    "dimensions": "4032x2268",
+    "sha256": "06210242bc60d111a31b7c1f33dd2d212230adeec4a3732e130ac49ab0d82bc9",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/24-harmonium.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 20,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "set photograph",
+    "dimensions": "4032x2268",
+    "sha256": "c25c53f44f0f62dcdaa744cb815b0398c17fb5f2d2c00075120ea3c48f3bd608",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/25-classroom-mural.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 21,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "set photograph",
+    "dimensions": "4032x2268",
+    "sha256": "b7b2842647581de704c37589f1bf3429b83a92db2420a40ab172585f55d4c54c",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/26-flooded-passage.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 23,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "concept art",
+    "dimensions": "6000x2513",
+    "sha256": "d70ac6dbcec9a18b1b6f4c86e48429f1df42fbe429efa4c50229ea411518d23a",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/27-it-corridor.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 40,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "set photograph",
+    "dimensions": "4096x2732",
+    "sha256": "1c318328c09e62f28d067d2438099e3890b99713dda69046faa0f2055f38454d",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
+  },
+  {
+    "file": "backgrounds/28-algorithm-chamber.jpg",
+    "source": "https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf",
+    "page": 43,
+    "credit": "Silo Season 2 production design presentation; Nicole Northridge, production designer; Apple TV and respective artists/rights holders",
+    "kind": "concept art",
+    "dimensions": "6000x2513",
+    "sha256": "5331fa75ea2ea26193fb913095d7e8b421e11558fa3d492e9d6b02cd708fd778",
+    "edit": "Embedded JPEG extracted directly with pdfimages -j. No resizing, recompression, retouching or upscaling. Artist marks retained where present. Source pre-publication processing unknown."
   }
 ]

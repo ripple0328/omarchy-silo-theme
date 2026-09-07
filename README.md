@@ -17,10 +17,10 @@ omarchy theme set silo
 omarchy theme bg next
 ```
 
-Thirteen wallpapers: the central shaft, six empty sets, and six restored character scenes. The central-shaft view remains the default. Original photo resolutions reach **8002×5337**.
+Twenty-three wallpapers, including **ten new production images**: five concept paintings at 6000–7680 pixels wide and five empty-set photographs around 4K. Abandoned Shaft is the default. Original character photography reaches **8002×5337**. The older 1080p set-tour frames remain available for variety.
 
 ## Wallpaper previews
 
-![All thirteen Silo wallpapers](preview/collection.jpg)
+![All twenty-three Silo wallpapers](preview/collection.jpg)
 
 See [wallpaper credits](WALLPAPERS.md) for sources and resolution details. This unofficial fan theme grants no rights to the show's imagery.

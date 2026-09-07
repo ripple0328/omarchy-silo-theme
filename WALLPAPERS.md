@@ -1,6 +1,6 @@
 # Silo wallpapers
 
-Thirteen wallpapers combine architecture, empty sets, and the six original character scenes. The central shaft remains the default.
+Twenty-three wallpapers combine production artwork, empty sets, architecture, and character scenes. Abandoned Shaft is the default.
 
 | Wallpaper | Pixels | Source |
 |---|---|---|
@@ -40,3 +40,22 @@ This unofficial theme grants no rights to the imagery.
 These six unmodified original photographs were restored from commit `0fe3e43`.
 They come from [Apple TV Press](https://www.apple.com/tv-pr/originals/silo/episodes-images/).
 Exact URLs, dimensions, and SHA-256 checksums are in [sources.json](sources.json).
+
+## Production artwork and set photography
+
+Ten additional images extracted directly from the embedded JPEG assets in [Nicole Northridge’s Silo Season 2 production design presentation](https://assets.adg.org/media/submissions/2024-10-24_07-11-18/Silo_2_Design_Presentation.pdf). Page numbers are PDF page numbers. These are production concept paintings and behind-the-scenes set photographs, not episode frame grabs.
+
+| Wallpaper | Pixels | Type | Page |
+|---|---|---|---|
+| Abandoned Shaft | 7680×3214 | concept art | 2 |
+| Shaft Overlook | 7680×3214 | concept art | 3 |
+| It Bridge | 7680×3214 | concept art | 4 |
+| Classroom Desks | 4032×2268 | set photograph | 16 |
+| Classroom Wide | 4032×2268 | set photograph | 16 |
+| Harmonium | 4032×2268 | set photograph | 20 |
+| Classroom Mural | 4032×2268 | set photograph | 21 |
+| Flooded Passage | 6000×2513 | concept art | 23 |
+| It Corridor | 4096×2732 | set photograph | 40 |
+| Algorithm Chamber | 6000×2513 | concept art | 43 |
+
+No added upscaling, sharpening, AI generation, or JPEG recompression. Embedded artist marks are retained. Source processing before PDF publication is unknown. The 7680-pixel images are painted concepts, not 8K camera photographs. The 4K set photos contain natural grain and varying focus. On a 6144×3456 display, even a 7680×3214 ultrawide image requires a small enlargement when filling the screen; 4K photography requires more. The older 1080p frames remain optional for variety and are not recommended for sharpness on 6K displays.
