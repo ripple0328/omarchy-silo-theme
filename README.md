@@ -21,25 +21,73 @@ Twenty-three wallpapers, including **ten new production images**: five concept p
 
 ## Mechanical companion
 
-An optional local app with a three-stage generator-balancing puzzle, 15/25/45/60-minute focus shifts, a handover notebook, and quiet machinery ambience (off by default).
+A local Silo-inspired app with a three-stage generator-balancing puzzle, a focus timer, a handover notebook, and optional machinery ambience (off by default).
 
-![Mechanical duty console](preview/mechanical.jpg)
+### Screenshots
 
-After installing the theme, install the companion separately:
+**Generator console and shift timer** — match each load order, hold the safe bands for eight seconds, and work a 15/25/45/60-minute shift.
+
+![Generator console and focus shift timer](preview/mechanical.jpg)
+
+**Handover book** — save notes for your next shift and export a JSON backup. This screenshot uses example notes.
+
+![Handover notebook with an example entry and export control](preview/handover.jpg)
+
+### Install
+
+Requires Omarchy, Python 3, a systemd user session, and an Omarchy-supported web-app browser. No additional Python or JavaScript packages are needed.
+
+1. Install the theme from GitHub (skip this if already installed):
+
+   ```bash
+   omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
+   ```
+
+2. Install the optional companion and application launcher:
+
+   ```bash
+   python3 ~/.config/omarchy/themes/silo/companion/install.py
+   ```
+
+The companion installs separately from the theme. Installing a theme alone does not run the companion installer.
+
+### Launch
+
+Open your application launcher, search for **Silo Mechanical**, and select it. Or launch from a terminal:
 
 ```bash
+python3 ~/.local/share/silo-mechanical/launch.py
+```
+
+Both methods start the local service and open the console in an app window. Once running, you can also visit [the local console](http://127.0.0.1:48118/) in a browser. Use the same browser profile to keep your timer and notes together.
+
+### Use
+
+- **Generator:** adjust steam and cooling to match demand within ±5%, keeping pressure and temperature in their safe bands. Hold steady for eight seconds, then select **Next load order**. Complete all three orders to certify the inspection.
+- **Shift:** choose a duration and select **Begin shift**. Pause, resume, or reset whenever needed. The timer catches up after closing the window or suspending the computer; it does not send background notifications.
+- **Handover:** write a note and select **Record handover**. Use **Export notes** to save a backup. Notes, drafts, and timer state stay in this browser’s local storage; clearing browser data removes them.
+- **Ambience:** turn the optional machinery hum on or off with the top-right button.
+
+All instruments are fictional. The puzzle restarts on reload. The app works offline and listens only on `127.0.0.1:48118`; the service starts on demand, without login autostart.
+
+### Update or stop
+
+To update both the theme and companion:
+
+```bash
+omarchy theme install https://github.com/ripple0328/omarchy-silo-theme
 python3 ~/.config/omarchy/themes/silo/companion/install.py
 ```
 
-Open **Silo Mechanical** from your application launcher. Run the same command after a theme update to update the companion. Requires Python 3, a systemd user session, and Omarchy’s supported web-app browser.
+Reopen or reload the app after updating. Updates preserve browser-stored notes and timer state.
 
-The app runs offline at `http://127.0.0.1:48118/`. Its service starts when launched, with no login autostart. Timer state, note drafts, and handovers stay in that browser’s local storage; **Export notes** saves a backup. Clearing browser data removes these records. The timer catches up after closing or suspending the app; it does not deliver background notifications. The inspection puzzle restarts when reloaded. All instruments are fictional.
-
-To stop the local service:
+Closing the window leaves the lightweight local service running. To stop it:
 
 ```bash
 systemctl --user stop silo-mechanical.service
 ```
+
+Launching **Silo Mechanical** starts it again.
 
 ## Wallpaper previews
 
